@@ -66,7 +66,7 @@ public class Rec1A {
 
         // Note here that custom is another reference to the same object as
         // matilda!
-        Rec1A custom = matilda;
+        Rec1A custom = new Rec1A("matilda") ;
 
         System.out.println("Number of Rec1A objects created incl. custom: " +
                 Rec1A.count);
@@ -87,4 +87,3 @@ public class Rec1A {
     }
 
 }
-
